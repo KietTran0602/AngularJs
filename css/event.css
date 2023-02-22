@@ -1,0 +1,44 @@
+h1{
+    color: white;
+}
+#ctrl4 > div:nth-child(2){
+    display: flex;
+}
+table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+td > img{
+    width: 60px;
+    height: 60px;
+}
+td, th{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    color: white;
+}
+#reward > div, #eventpv > div, #info{
+    font-size: 24px;
+    color: white;
+}
+#eventpv > div:nth-child(2) > video{
+    width: 960px;
+    height: 540px;
+}
+#ctrl4 > div > img{
+    position: relative;
+    left: 159px;
+}
+#reward{
+    flex: 40%;
+    margin-top: 30px;
+    width: 500px;
+}
+#reward > div,#reward > table {
+    margin-left: 140px;
+}
+#ctrl4 > div:nth-child(2) > div:nth-child(2){
+    margin-top: 30px;
+    flex: 60%;
+}

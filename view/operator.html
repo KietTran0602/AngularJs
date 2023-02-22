@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="../js/index.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <link rel="stylesheet" href="../css/operator.css">
+
+    
+
+    <title>OPERATOR</title>
+</head>
+<body>
+    <h1>Danh sách Operator</h1>
+    <div ng-controller="myCtrl2">
+        <input type="text" ng-model="searchText.name" id="searchBar" placeholder="Search here">
+        <div id="addOp" hidden>
+            <h2>Thêm Operator mới</h2>
+            <label for="">Tên:</label>
+            <input type="text" ng-model="op.name" id="opname">
+            <br/> <br/>
+            <label for="">Chức vụ:</label>
+            <input type="text" ng-model="op.class" id="opclass">
+            <br/> <br/>
+            <label for="">Độ hiếm:</label>
+            <input type="text" ng-model="op.rate" id="oprate">
+            <br/>
+            <hr>
+            <button id="savebtn" ng-click="save()">Lưu</button>
+            <button id="canclebtn" ng-click="cancle()">Hủy</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ảnh</th>
+                    <th>Tên</th>
+                    <th>Chức vụ</th>
+                    <th>Độ hiếm</th>
+                    <th>Thông tin</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="operator in operators | orderBy:'-rate' |filter:searchText">
+                    <td><img src="{{operator.image}}" alt=""></td>
+                    <td>{{operator.name}}</td>
+                    <td><img src="{{operator.class}}" alt=""></td>
+                    <td>
+                        {{operator.rate[0]}}<i class="{{operator.rate[1]}}"></i>
+                    </td>
+                    <td>Coming soon</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

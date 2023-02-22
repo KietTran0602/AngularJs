@@ -1,0 +1,32 @@
+[
+    {
+        "event": "Continent contract #10",
+        "image": "image/banner/ban1.webp",
+        "date": "2023-02-03 ~ 2023-02-17"
+    },
+    {
+        "event": "Ideal city",
+        "image": "image/banner/ban2.webp",
+        "date": "2023-01-13 ~ 2023-02-03"
+    },
+    {
+        "event": "Lingering Echoes",
+        "image": "image/banner/ban3.webp",
+        "date": "2022-12-27 ~ 2023-01-10"
+    },
+    {
+        "event": "Continent contract #9",
+        "image": "image/banner/ban4.webp",
+        "date": "2022-12-08 ~ 2022-12-22"
+    },
+    {
+        "event": "Under tides rerun",
+        "image": "image/banner/ban5.webp",
+        "date": "2022-11-25 ~ 2022-12-05"
+    },
+    {
+        "event": "Stultifera Navis",
+        "image": "image/banner/ban6.webp",
+        "date": "2022-11-03 ~ 2022-11-24"
+    }
+]

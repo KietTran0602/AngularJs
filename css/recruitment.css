@@ -1,0 +1,65 @@
+#myCtrl3 > div:nth-child(1){
+    margin: 0 auto;
+    font-size: 24px;
+    border: 3px solid white;
+    box-shadow: 10px 15px black;
+
+    height: 350px;
+    width: 1300px;
+}
+#myCtrl3 > div:nth-child(1) button{
+    font-size: 24px;
+}
+#myCtrl3 > div:nth-child(1) > div {
+    display: flex;
+}
+#myCtrl3 > div:nth-child(1) > div > div:nth-child(1){
+    background-color: rgb(33,33,33);
+    flex: 10%;
+    margin: 16px 30px;
+    width: 50px;
+    height: 50px;
+}
+#myCtrl3 > div:nth-child(1) > div > div:nth-child(2){
+    flex: 70%;
+}
+#myCtrl3 > div:nth-child(1) > div > div:nth-child(1) p{
+    width: 200px;
+    margin: 0 14px;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+#myCtrl3 > div:nth-child(1) > div > div:nth-child(2) button{
+    margin: 24px 0;
+}
+#myCtrl3 > div:nth-child(1) > div > div:nth-child(2) button:hover{
+    cursor: pointer;
+}
+#myCtrl3 > div:nth-child(2){
+    margin: 30px auto 0;
+    font-size: 24px;
+    border: 3px solid white;
+    box-shadow: 10px 15px black;
+
+    width: 1300px;
+}
+table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+td, th{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    color: white;
+}
+#tag{
+    width: 500px;
+}
+.activebtn{
+    background-color: rgb(199,206,234);
+}
+h1{
+    color: white;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+
+    <title>index</title>
+</head>
+<body ng-app="myApp">
+    <header>
+        <section>
+            ARKNIGHTS<strong>HEART</strong>
+        </section>
+            <section>
+                <nav ng-controller="navcontroller">
+                    <ul>
+                        <li ><a href="#!/" ng-class="{active1: isActive('/')}">HOME</a></li>
+                        <p>|</p>
+                        <li ><a href="#!/Operator" ng-class="{active1: isActive('/Operator')}">OPERATOR</a></li>
+                        <p>|</p>
+                        <li ><a href="#!/Recruitment" ng-class="{active1: isActive('/Recruitment')}">RECRUITMENT</a></li>
+                        <p>|</p>
+                        <li><a href="#!/Event" ng-class="{active1: isActive('/Event')}">EVENT</a></li>
+                        <p>|</p>
+                        <li><a href="#!/About" ng-class="{active1: isActive('/About')}">ABOUT</a></li>
+                    </ul>
+                </nav>
+        </section>
+    </header>
+    <div ng-view></div>
+</body>
+</html>

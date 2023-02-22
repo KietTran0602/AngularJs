@@ -1,0 +1,528 @@
+[
+    {
+        "image": "../image/operator/Aak.png",
+        "name": "Aak",
+        "class": "../image/operator/Specialist.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"]
+        
+    },
+    {
+        "image": "../image/operator/Angelina.png",
+        "name": "Angelina",
+        "class": "../image/operator/Supporter.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": []
+    },
+    {
+        "image": "../image/operator/Archetto.png",
+        "name": "Archetto",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""]
+    },
+    {
+        "image": "../image/operator/Ash.png",
+        "name": "Ash",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""]
+    },
+    {
+        "image": "../image/operator/Bagpipe.png",
+        "name": "Bagpipe",
+        "class": "../image/operator/Vanguard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"]
+    },
+    {
+        "image": "../image/operator/Blaze.png",
+        "name": "Blaze",
+        "class": "../image/operator/Guard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"]
+    },
+    {
+        "image": "../image/operator/Blemishine.png",
+        "name": "Blemishine",
+        "class": "../image/operator/Defender.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""]
+    },
+    {
+        "image": "../image/operator/Ceobe.png",
+        "name": "Ceobe",
+        "class": "../image/operator/Caster.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Chen.png",
+        "name": "Chen",
+        "class": "../image/operator/Guard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Dusk.png",
+        "name": "Dusk",
+        "class": "../image/operator/Caster.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Eunectes.png",
+        "name": "Eunectes",
+        "class": "../image/operator/Defender.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Exusiai.png",
+        "name": "Exusiai",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Eyja.png",
+        "name": "Eyjafjalla",
+        "class": "../image/operator/Caster.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Hellagur.png",
+        "name": "Hellagur",
+        "class": "../image/operator/Guard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Hoshiguma.png",
+        "name": "Hoshiguma",
+        "class": "../image/operator/Defender.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/ifrit.png",
+        "name": "Ifrit",
+        "class": "../image/operator/Caster.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Kaltsit.png",
+        "name": "Kal'tsit",
+        "class": "../image/operator/Medic.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Magallan.png",
+        "name": "Magallan",
+        "class": "../image/operator/Supporter.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Mizuki.png",
+        "name": "Mizuki",
+        "class": "../image/operator/Specialist.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Mostima.png",
+        "name": "Mostima",
+        "class": "../image/operator/Caster.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Mountain.png",
+        "name": "Mountain",
+        "class": "../image/operator/Guard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Mudrock.png",
+        "name": "Mudrock",
+        "class": "../image/operator/Defender.png",
+        "rate": ["6","fa-solid fa-star"] ,
+        "tag": [""]
+    },
+    {
+        "image": "../image/operator/Nian.png",
+        "name": "Nian",
+        "class": "../image/operator/Supporter.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/nightingale.png",
+        "name": "nightingale",
+        "class": "../image/operator/Medic.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Passenger.png",
+        "name": "Passenger",
+        "class": "../image/operator/Caster.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Phantom.png",
+        "name": "Phantom",
+        "class": "../image/operator/Specialist.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Rosa.png",
+        "name": "Rosa",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Rosmontis.png",
+        "name": "Rosmontis",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Saga.png",
+        "name": "Saga",
+        "class": "../image/operator/Vanguard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Saria.png",
+        "name": "Saria",
+        "class": "../image/operator/Defender.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Schwarz.png",
+        "name": "Schwarz",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/seige.png",
+        "name": "Seige",
+        "class": "../image/operator/Vanguard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/shinning.png",
+        "name": "Shinning",
+        "class": "../image/operator/Medic.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/SilverAsh.png",
+        "name": "SilverAsh",
+        "class": "../image/operator/Guard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/Skadi.png",
+        "name": "Skadi",
+        "class": "../image/operator/Guard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": ["top operator","6star"] 
+    },
+    {
+        "image": "../image/operator/SkadiAlt.png",
+        "name": "SkadiAlt",
+        "class": "../image/operator/Supporter.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Surtr.png",
+        "name": "Surtr",
+        "class": "../image/operator/Guard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Suzuran.png",
+        "name": "Suzuran",
+        "class": "../image/operator/Supporter.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Thorns.png",
+        "name": "Thorns",
+        "class": "../image/operator/Guard.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/W.png",
+        "name": "W",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Weedy.png",
+        "name": "Weedy",
+        "class": "../image/operator/Specialist.png",
+        "rate": ["6","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/April.png",
+        "name": "April",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Asbestos.png",
+        "name": "Asbestos",
+        "class": "../image/operator/Defender.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Beeswax.png",
+        "name": "Beeswax",
+        "class": "../image/operator/Caster.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Bibeak.png",
+        "name": "Bibeak",
+        "class": "../image/operator/Guard.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Elysium.png",
+        "name": "Elysium",
+        "class": "../image/operator/Vanguard.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Folinic.png",
+        "name": "Folinic",
+        "class": "../image/operator/Medic.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Kafka.png",
+        "name": "Kafka",
+        "class": "../image/operator/Specialist.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Kirara.png",
+        "name": "Kirara",
+        "class": "../image/operator/Specialist.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/LaPluma.png",
+        "name": "LaPluma",
+        "class": "../image/operator/Guard.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Mint.png",
+        "name": "Mint",
+        "class": "../image/operator/Caster.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": [""] 
+    },
+    {
+        "image": "../image/operator/Scene.png",
+        "name": "Scene",
+        "class": "../image/operator/Supporter.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": ["supporter","5star"] 
+    },
+    {
+        "image": "../image/operator/Sesa.png",
+        "name": "Sesa",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["5","fa-solid fa-star"],
+        "tag": ["senior operator","range","sniper","5star"] 
+    },
+    {
+        "image": "../image/operator/Dobermann.png",
+        "name": "Dobermann",
+        "class": "../image/operator/Guard.png",
+        "rate": ["4","fa-solid fa-star"],
+        "tag": ["melee","guard","4star"] 
+    },
+    {
+        "image": "../image/operator/Gitano.png",
+        "name": "Gitano",
+        "class": "../image/operator/Caster.png",
+        "rate": ["4","fa-solid fa-star"],
+        "tag": ["range","caster","4star"]  
+    },
+    {
+        "image": "../image/operator/Haze.png",
+        "name": "Haze",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["4","fa-solid fa-star"],
+        "tag": ["range","caster","4star"]  
+    },
+    {
+        "image": "../image/operator/Jessica.png",
+        "name": "Jessica",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["4","fa-solid fa-star"],
+        "tag": ["range","sniper","4star"]  
+    },
+    {
+        "image": "../image/operator/May.png",
+        "name": "May",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["4","fa-solid fa-star"],
+        "tag": ["range","sniper","4star"]  
+    },
+    {
+        "image": "../image/operator/Mousse.png",
+        "name": "Mousse",
+        "class": "../image/operator/Guard.png",
+        "rate": ["4","fa-solid fa-star"],
+        "tag": ["melee","guard","4star"]  
+    },
+    {
+        "image": "../image/operator/Myrtle.png",
+        "name": "Myrtle",
+        "class": "../image/operator/Vanguard.png",
+        "rate": ["4","fa-solid fa-star"],
+        "tag": ["melee","vanguard","4star"]   
+    },
+    {
+        "image": "../image/operator/Pudding.png",
+        "name": "Pudding",
+        "class": "../image/operator/Caster.png",
+        "rate": ["4","fa-solid fa-star"],
+        "tag": [""]  
+    },
+    {
+        "image": "../image/operator/Adnachiel.png",
+        "name": "Adnachiel",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["3","fa-solid fa-star"],
+        "tag": ["range","sniper","3star"] 
+    },
+    {
+        "image": "../image/operator/Ansel.png",
+        "name": "Ansel",
+        "class": "../image/operator/Medic.png",
+        "rate": ["3","fa-solid fa-star"],
+        "tag": ["range","medic","3star"] 
+    },
+    {
+        "image": "../image/operator/Cardigan.png",
+        "name": "Cardigan",
+        "class": "../image/operator/Defender.png",
+        "rate": ["3","fa-solid fa-star"],
+        "tag": ["defender","3star"] 
+    },
+    {
+        "image": "../image/operator/Steward.png",
+        "name": "Steward",
+        "class": "../image/operator/Caster.png",
+        "rate": ["3","fa-solid fa-star"],
+        "tag": ["range","caster","3star"] 
+    },
+    {
+        "image": "../image/operator/Popukar.png",
+        "name": "Popukar",
+        "class": "../image/operator/Guard.png",
+        "rate": ["3","fa-solid fa-star"],
+        "tag": ["melee","guard","3star"]  
+    },
+    {
+        "image": "../image/operator/Vanilla.png",
+        "name": "Vanilla",
+        "class": "../image/operator/Vanguard.png",
+        "rate": ["3","fa-solid fa-star"],
+        "tag": ["melee","vanguard","3star"]  
+    },
+    {
+        "image": "../image/operator/12F.png",
+        "name": "12F",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["2","fa-solid fa-star"],
+        "tag": ["starter","range","caster","2star"] 
+    },
+    {
+        "image": "../image/operator/Durin.png",
+        "name": "Durin",
+        "class": "../image/operator/Caster.png",
+        "rate": ["2","fa-solid fa-star"],
+        "tag": ["starter","range","caster","2star"] 
+    },
+    {
+        "image": "../image/operator/Rangers.png",
+        "name": "Rangers",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["2","fa-solid fa-star"],
+        "tag": ["starter","range","sniper","2star"] 
+    },
+    {
+        "image": "../image/operator/Yato.png",
+        "name": "Yato",
+        "class": "../image/operator/Vanguard.png",
+        "rate": ["2","fa-solid fa-star"],
+        "tag": ["starter","melee","vanguard","2star"]   
+    },
+    {
+        "image": "../image/operator/Castle3.png",
+        "name": "Castle-3",
+        "class": "../image/operator/Guard.png",
+        "rate": ["1","fa-solid fa-star"],
+        "tag": ["melee","guard","1star"]  
+    },
+    {
+        "image": "../image/operator/JusticeKnight.png",
+        "name": "Justice-Knight",
+        "class": "../image/operator/Sniper.png",
+        "rate": ["1","fa-solid fa-star"],
+        "tag": ["range","sniper","1star"]  
+    },
+    {
+        "image": "../image/operator/THRMEX.png",
+        "name": "THRM-EX",
+        "class": "../image/operator/Specialist.png",
+        "rate": ["1","fa-solid fa-star"],
+        "tag": ["melee","specialist","1star"]   
+    },
+    {
+        "image": "../image/operator/Lancet2.png",
+        "name": "Lancet2",
+        "class": "../image/operator/Medic.png",
+        "rate": ["1","fa-solid fa-star"],
+        "tag": ["range","medic","1star"]  
+    }    
+]

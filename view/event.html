@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/event.css">
+    <title>HOME</title>
+</head>
+<body>
+    <h1>Event hiện tại</h1>
+    <section id="ctrl4">
+        <div>
+            <img src="../image/banner/CC10Ashring_0.webp" alt="">
+        </div>
+        <div>
+            <div id="reward">
+                <div>
+                    Tóm tắt phần thưởng
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>nguyên liệu</th>
+                            <th>số lượng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="m in reward">
+                            <td><img src="{{m.image}}" alt=""></td>
+                            <td>{{m.amount}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <div id="eventpv">
+                    <div >Event PV</div>
+                    <div>
+                        <video src="../video/cc10.mp4" controls></video>
+                    </div>
+                </div>
+                <div id="info">
+                    <div>Thông tin sự kiện</div>
+                    <p>Thời gian diễn ra: February-3-2023, 10:00(UTC-7) - February-17-2023, 03:59(UTC-7)</p>
+                    <p> Điều kiện mở khóa: Hoàn thành Story 2-10</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</body>
+</html>

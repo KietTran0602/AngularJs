@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/recruitment.css">
+    <title>RECRUITMENT</title>
+</head>
+<body ng-app="myApp">
+    <section><h1>Các Operator có thể tuyển </h1></section>
+    <div id="myCtrl3" ng-controller="myCtrl3">
+        <div>
+            <div>
+                <div><p>Phân cấp</p></div>
+                <div>
+                    <button ng-class="{'activebtn': click1}" ng-click="Starter()">Starter</button>
+                    <button ng-class="{'activebtn': click2}" ng-click="Senior()">Senior Operator</button>
+                    <button ng-class="{'activebtn': click3}" ng-click="Top()">Top Operator</button>
+                </div>
+            </div>
+            <div>
+                <div><p>Vị trí</p></div>
+                <div>
+                    <button ng-class="{'activebtn': click4}"  ng-click="Melee()">Melee</button>
+                    <button ng-class="{'activebtn': click5}" ng-click="Range()">Ranged</button>
+                </div>
+            </div>
+            <div>
+                <div><p>Chức vụ</p></div>
+                <div>
+                    <button ng-class="{'activebtn': click6}" ng-click="Guard()">Guard</button>
+                    <button ng-class="{'activebtn': click7}" ng-click="Medic()">Medic</button>
+                    <button ng-class="{'activebtn': click8}" ng-click="Vanguard()">Vanguard</button>
+                    <button ng-class="{'activebtn': click9}" ng-click="Caster()">Caster</button>
+                    <button ng-class="{'activebtn': click10}" ng-click="Sniper()">Sniper</button>
+                    <button ng-class="{'activebtn': click11}" ng-click="Defender()">Defender</button>
+                    <button ng-class="{'activebtn': click12}" ng-click="Supporter()">Supporter</button>
+                    <button ng-class="{'activebtn': click13}" ng-click="Specialist()">Specialist</button>
+                </div>
+            </div>
+            <div>
+                <div><p>Độ hiếm</p></div>
+                <div>
+                    <button ng-class="{'activebtn': click14}" ng-click="sixStar()">6<i class="fa-solid fa-star"></i></button>
+                    <button ng-class="{'activebtn': click15}" ng-click="fiveStar()">5<i class="fa-solid fa-star"></i></button>
+                    <button ng-class="{'activebtn': click16}" ng-click="fourStar()">4<i class="fa-solid fa-star"></i></button>
+                    <button ng-class="{'activebtn': click17}" ng-click="threeStar()">3<i class="fa-solid fa-star"></i></button>
+                    <button ng-class="{'activebtn': click18}" ng-click="twoStar()">2<i class="fa-solid fa-star"></i></button>
+                    <button ng-class="{'activebtn': click19}" ng-click="oneStar()">1<i class="fa-solid fa-star"></i></button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="tag" rowspan="2">Tag</th>
+                        <th colspan="4">Operator Possibility</th>
+                    </tr>
+                    <tr>
+                        <th>Ảnh</th>
+                        <th>Tên</th>
+                        <th>Chức vụ</th>
+                        <th>Độ hiếm</th>
+                    </tr>
+                </thead>
+                <tbody ng-repeat="operator in showfield">
+                        <tr  ng-repeat="x in operator">
+                            <td>{{x.tag}}</td>
+                            <td><img src="{{x.image}}" alt=""></td>
+                            <td>{{x.name}}</td>
+                            <td><img src="{{x.class}}" alt=""></td>
+                            <td>{{x.rate[0]}}<i class="{{x.rate[1]}}"></i> </td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+
+div > section:nth-child(1) video {
+    position: relative;
+    width: 1344px;
+    height: 756px;
+
+    top: 10px;
+    left: 178px;
+}
+div > section:nth-child(2) > div:nth-child(1){
+    margin: 40px 0;
+    display: inline-flex;
+    height: auto;
+    width: 1395px;
+    border: 3px solid white;
+
+    position: relative;
+    left: 150px;
+}
+div > section:nth-child(2) > div > div:nth-child(1){
+    height: auto;
+    width: 93%;
+}
+div > section:nth-child(2) > div > div:nth-child(2){
+    height: auto;
+    width: 7%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 0 30px;
+    background-color: rgb(34,187,255);
+}
+div > section:nth-child(2) > div:nth-child(2){
+    width: 1395px;
+    height: auto;
+
+    position: relative;
+    left: 152px;
+}
+table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th{
+    height: 250px;
+    width: 1390px;
+}
+th:hover{
+    cursor: pointer;
+}
+td{
+    height: 300px;
+    width: 456px;
+}
+tr > td > ul > li{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 0 5px;
+    color: rgb(34,187,255);
+    background-color: rgb(32,33,36);
+
+}
+img{
+    width: 456px;
+}
+td > ul:hover > li{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(34,187,255);
+}
+
+
+  

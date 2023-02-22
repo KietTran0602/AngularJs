@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-animate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="../js/index.js" defer></script>
+    <link rel="stylesheet" href="../css/home.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <section>
+            <video autoplay loop muted>
+                <source src="../video/ros.mp4">
+           </video>
+        </section>
+        <section>
+            <div>
+                <div>
+
+                </div>
+                <div>
+                    <p>LATEST</p>
+                </div>
+            </div>
+            <div ng-controller="myCtrl1">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3" class="mySlides fade">
+                                <div>
+                                    <img src="../image/banner/lingeringbanner.png" style="height: 250px; width: 1390px;">
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td ng-repeat="p in pictures | limitTo:3">
+                                <ul>
+                                    <li>{{p.event}}</li>
+                                    <li><img src="{{p.image}}" alt=""></li>
+                                    <li>{{p.date}}</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td ng-repeat="p in pictures | limitTo:3:3">
+                                <ul>
+                                    <li>{{p.event}}</li>
+                                    <li><img src="{{p.image}}" alt=""></li>
+                                    <li>{{p.date}}</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

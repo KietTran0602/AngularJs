@@ -1,0 +1,37 @@
+h1{
+    color: white;
+}
+#aboutus{
+    color: white;
+    border: 5px solid white;
+    box-shadow: 5px 10px black;
+}
+#aboutus p {
+    margin: 10px 30px;
+    font-size: 20px;
+    text-align: center;
+}
+#aboutus a{
+    text-decoration: none;
+    font-size: 20px;
+}
+#aboutus a:link{
+
+    color: salmon;
+}
+#aboutus a:visited{
+
+    color: salmon;
+}
+#aboutus a:hover{
+
+    color: rgb(34,187,255);
+}
+#aboutus a:active{
+
+    color: salmon;
+}
+#aboutus > div{
+    line-height: 50px;
+    text-align: center;
+}
